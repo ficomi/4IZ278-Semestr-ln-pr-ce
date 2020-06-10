@@ -44,8 +44,8 @@ return [
         ],
     ],
     'facebook' => [
-        'client_id' => '702748353825175',
-        'client_secret' => 'dcfe7500b632975f7e890ba736212d0a',
+        'client_id' => '',
+        'client_secret' => '',
         'redirect' => 'https://ficomiloslav.xyz/login/facebook/callback',
     ],
 ];
