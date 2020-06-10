@@ -74,7 +74,7 @@ class LoginController extends Controller
             return redirect()->route('home');
         } else {
 
-            return redirect()->route('home')->with('error','Chyba: Nepodařilo se přihlásit pomocí Facebooku.');;
+            return redirect()->route('home')->with('error','Chyba: Nepodařilo se přihlásit pomocí Facebooku.');
         }
     }
 }
